@@ -9,13 +9,13 @@ public class Rectangle {
     private int length; 
     private int breadth; 
     
-    public Rectangle(int l, int b) {
-        length = l;
+    public Rectangle(int x, int b) {
+        length = x;
         breadth = b;
     }
     
-    public int getArea() { 
-        return 0; // write code to calculate area here
+    public int getArea(int x, int y) { 
+        return x*y; // write code to calculate area here
     } 
     
     // write code to calculate perimeter here
